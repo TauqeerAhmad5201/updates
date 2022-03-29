@@ -13,7 +13,7 @@ jobs:
               run: ./scripts/fetch-resources.sh
 
             - name: Update resources
-              uses: test-room-7/action-update-file@v1
+              uses: TauqeerAhmad5201/updates@v1
               with:
                   file-path: https://github.com/TauqeerAhmad5201/updates#README.md
                   commit-msg: Update resources
